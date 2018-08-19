@@ -1,0 +1,10 @@
+{
+    "plugins": ["transform-async-to-generator"]
+  }
+
+function printAlternate(min,max)
+{
+    for(var i=min;i<=max;i=i+2){
+        console.log(i);
+    }
+}
